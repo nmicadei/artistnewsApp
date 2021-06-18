@@ -1,17 +1,81 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="roxao">
     <ion-title>
-      Tab 1
+      Principais notícias 
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="light">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+  <ion-card color="">
+    <ion-item color="">
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+      <ion-card-content>
+        Acompanhe aqui as notícias mais recentes sobre o mundo dos artistas!
+      </ion-card-content>
+    </ion-item>
+  </ion-card>
+
+  <ion-card color="amareloclaro">
+    <img src="assets/twice.jpg" alt="grupo twice">
+
+    <ion-item color="amareloclaro">
+      <ion-icon name="musical-notes-outline"></ion-icon>
+      <ion-label class="ion-text-center">Novo álbum do Twice</ion-label>
+      <ion-badge color="amareloclaro">51K Views</ion-badge>
+    </ion-item>
+  
+    <ion-card-content>
+      É isso mesmo que você leu! Com novo álbum, TWICE pode ter sua melhor 
+      estreia na Billboard. O EP “Taste of Love” 
+      deverá estrear direto no Top 10 da parada de álbuns dos EUA.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="azulclaro">
+    <img src="assets/nunes.jpg" alt="Whindersson Nunes">
+
+    <ion-item color="azulclaro">
+      <ion-icon name="logo-youtube"></ion-icon>
+      <ion-label class="ion-text-center">Cada vez mais alto</ion-label>
+      <ion-badge color="azulclaro">51K Views</ion-badge>
+    </ion-item>
+  
+    <ion-card-content>
+      O criador de conteúdo brasileiro Whindersson Nunes 
+      foi escalado entre os 50 maiores influenciadores do 
+      mundo essa semana.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="rosaclaro">
+    <img src="assets/doja.jpg" alt="doja cat">
+
+    <ion-item color="rosaclaro">
+      <ion-icon name="musical-notes-outline"></ion-icon>
+      <ion-label class="ion-text-center">A mais esperada</ion-label>
+      <ion-badge color="rosaclaro">51K Views</ion-badge>
+    </ion-item>
+  
+    <ion-card-content>
+      Doja Cat anuncia nova parceria com linha de cosméticos 
+      "KimChi Chic Beauty" e data de lançamento.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="bege">
+    <img src="assets/jk.jpg" alt="grupo twice">
+
+    <ion-item color="bege">
+      <ion-icon name="musical-notes-outline"></ion-icon>
+      <ion-label class="ion-text-center">Mais uma para a coleção</ion-label>
+      <ion-badge color="bege">51K Views</ion-badge>
+    </ion-item>
+  
+    <ion-card-content>
+      Jeon Jeongguk, integrante do grupo sul coreano "BTS", 
+      revela sua mais nova tatuagem nas redes sociais, chamando a atenção dos fãs.
+    </ion-card-content>
+
+  </ion-card>
